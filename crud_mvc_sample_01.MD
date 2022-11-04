@@ -92,7 +92,7 @@ _Result_
 ![image](https://user-images.githubusercontent.com/111234771/199991234-f72c15d7-27fb-4f22-9572-edea8dd5453d.png)
 
 
-### Step 5 - Register Context in the Dependency Injuction COntainer
+### Step 5 - Register Context in the Dependency Injuction Container
 
 _Add the Connecting String_
 ![image](https://user-images.githubusercontent.com/111234771/199996497-5f502252-ff98-4d99-8f34-460f098dcd2d.png)
@@ -113,8 +113,23 @@ add-migration Independent
 ![image](https://user-images.githubusercontent.com/111234771/199999739-9eaadc78-1d04-4ab8-aabd-4f39c5f9d6c9.png)
 
 
-***...for Migration Creating a table Many to Many
+***...for Migration Creating a table Many to Many***
 ```
 add-migration ManyToMany
 update-database
 ```
+
+***... Adding Entity Teacher Can Have Only One Subject*** 
+![image](https://user-images.githubusercontent.com/111234771/200030150-a8ea3c43-f640-43f6-859a-8f1358421bec.png)
+
+***... Adding Entity Subject Can Have Many Teacher*** 
+![image](https://user-images.githubusercontent.com/111234771/200030210-4fe99624-e17f-42d0-9129-7bae665dfb7b.png)
+
+
+***...for Migration Creating a table One to Many***
+```
+add-migration ManyToOne
+update-database
+```
+
+### Step 6 - CRUD Operations
