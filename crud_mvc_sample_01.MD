@@ -94,5 +94,6 @@ _Result_
 _Add the Connecting String_
 ![image](https://user-images.githubusercontent.com/111234771/199996497-5f502252-ff98-4d99-8f34-460f098dcd2d.png)
 
-_Go to Program.cs in the root directory_
+_Go to Program.cs in the root directory and register_
+![image](https://user-images.githubusercontent.com/111234771/199997206-807f8ac0-2573-4ae2-89fa-39c96dda36dd.png)
 
