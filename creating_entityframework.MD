@@ -68,6 +68,10 @@ Go to Server Explorer to Verify, Create and Insert Data,
 		Insert into Student values ('Drew','Cosby', Male, 300000, 2)
 		Insert into Student values ('Halen','Keller', Female, 300000, 2)
 ```
+_Result_
+
+![image](https://user-images.githubusercontent.com/111234771/199949739-b1969745-29aa-43b9-b9bd-7d69d3d7a49d.png)
+
 
 ### Step 4 - Create New Entity Data Item (ADO.NET Entity Data Model) ###
 ```
