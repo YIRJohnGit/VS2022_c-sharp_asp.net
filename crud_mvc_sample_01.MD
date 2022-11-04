@@ -87,3 +87,8 @@ namespace EFMVC.Context
 ```
 _Result_
 ![image](https://user-images.githubusercontent.com/111234771/199991234-f72c15d7-27fb-4f22-9572-edea8dd5453d.png)
+
+
+### Step 5 - Register Context in the Dependency Injuction COntainer
+_Go to Program.cs in the root directory_
+
