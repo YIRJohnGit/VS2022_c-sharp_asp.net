@@ -14,7 +14,7 @@
 				Create The Project 
 ```
 
-### Step 2 - Addin Entityframe work to the project ###
+### Step 2 - Adding Entityframe work to the project ###
 ```
 Go to Solution Explorer
 	Right Click an Select < Manage NuGet Packages >
@@ -23,6 +23,9 @@ Go to Solution Explorer
 		Click on Agreeemnt Terms
 
 ```
+_Result_
+
+![image](https://user-images.githubusercontent.com/111234771/199929315-7249195b-80eb-466e-8435-0db6e7825452.png)
 
 ### Step 3 - Connecting to a Database ###
 ```
