@@ -32,19 +32,20 @@ Go to Solution Explorer and right Click on the < Project > Folder
 ### Step 3 - Create A New Models
 ```
   Go to Solution Explorer and right Click on the < Models > Folder
-	Select < Add >, in Sub Menu < Class >
+	Select < Add >, in Sub Menu < Class > Teacher.cs
 ```
+***...for Creating 2 Models  Teache.cs and Subject.cs ***
+_in Teacher.cs_
 ```
-	-> teacher.cs
-  
-		public int TeacherId { get; set; }
-		public int TeacherName { get; set; }
-		public int TeacherAddress { get; set; }
-		public int TeacherAge { get; set; }
+	public int TeacherId { get; set; }
+	public int TeacherName { get; set; }
+	public int TeacherAddress { get; set; }
+	public int TeacherAge { get; set; }
 ```
--> subject.cs	
-		public int SubjectId { get; set; }
-		public int SubjectName { get; set; }
-		public int SubjectTerm { get; set; }
-		public int SubjectCredets { get; set; }
-
+_in subject.cs_	
+```
+	public int SubjectId { get; set; }
+	public int SubjectName { get; set; }
+	public int SubjectTerm { get; set; }
+	public int SubjectCredets { get; set; }
+```
