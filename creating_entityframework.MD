@@ -104,7 +104,7 @@ Model Namespace < StudentModel > Click on Finish
 _Result_
 ![image](https://user-images.githubusercontent.com/111234771/199959402-a865fa43-4f79-4bf3-a1a0-516c502de714.png)
 
-_Finally - Entity Data View_
+_Finally - Entity Data Modal_
 ![image](https://user-images.githubusercontent.com/111234771/199959814-175f688d-8960-47ec-ac2a-84e5ffa00def.png)
 
 ### Step 5 - Create A web Form ###
