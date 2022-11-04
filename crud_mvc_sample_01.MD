@@ -95,10 +95,14 @@ _Result_
 ### Step 5 - Register Context in the Dependency Injuction Container
 
 _Add the Connecting String_
-![image](https://user-images.githubusercontent.com/111234771/199996497-5f502252-ff98-4d99-8f34-460f098dcd2d.png)
+![image](https://user-images.githubusercontent.com/111234771/200054108-acf58dde-6373-4723-9b7a-29cf3770f832.png)
 
 _Go to Program.cs in the root directory and register_
 ![image](https://user-images.githubusercontent.com/111234771/199997206-807f8ac0-2573-4ae2-89fa-39c96dda36dd.png)
+
+
+_Result Sample View_
+![image](https://user-images.githubusercontent.com/111234771/200054185-ba9d00b4-b1c3-4934-a638-8b1947beae4f.png)
 
 
 ***...for Migration Creating a table
@@ -133,15 +137,6 @@ update-database
 ```
 
 ### Step 6 - CRUD Operations
-***...For adding connecting String***
-
-_Result Sample View_
-![image](https://user-images.githubusercontent.com/111234771/200054108-acf58dde-6373-4723-9b7a-29cf3770f832.png)
-
-***...For Binding the Connecting String with Service***
-
-_Result Sample View_
-![image](https://user-images.githubusercontent.com/111234771/200054185-ba9d00b4-b1c3-4934-a638-8b1947beae4f.png)
 
 
 
