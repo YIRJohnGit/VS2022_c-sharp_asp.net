@@ -133,3 +133,6 @@ update-database
 ```
 
 ### Step 6 - CRUD Operations
+
+# Need to re learn 
+https://youtu.be/Ep0sFH-2nMQ
