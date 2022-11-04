@@ -52,3 +52,38 @@ _in Subject.cs_
 ```
 _Subject.cs File_
 ![image](https://user-images.githubusercontent.com/111234771/199986465-c56f689b-eee5-4b84-9f55-f487144ad263.png)
+
+
+### Step 4 - Creating Context
+_Context can be used as Special Class and maintain Session Between Database and Applications_
+```
+Go to Sollution Folder and Right Click on Add Folder from the Dropdown Menu
+```
+_Result_
+![image](https://user-images.githubusercontent.com/111234771/199987130-bab57bf6-e33b-44b5-813b-60754659a03d.png)
+```
+Go to Side the Context Folde, Right Click and add a Class File MVCContext.cs 
+```
+```
+using EFMVC.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace EFMVC.Context
+{
+    // Step1
+    public class MVCContext: DbContext
+    {
+        // Step 2 - Adding Constructor
+        public MVCContext(DbContextOptions options):base(options)
+        {
+            #pragma warning disable 
+        }
+
+        // Step 3 - Adding Constructor
+        public DbSet<Subject> Subjects { get; set; }
+        public DbSet<Teacher> Teachers{ get; set; }
+    }
+}
+```
+_Result_
+![image](https://user-images.githubusercontent.com/111234771/199991234-f72c15d7-27fb-4f22-9572-edea8dd5453d.png)
