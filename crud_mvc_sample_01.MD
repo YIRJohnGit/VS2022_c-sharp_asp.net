@@ -38,20 +38,23 @@ Go to Solution Explorer and right Click on the < Project > Folder
 
 _in Teacher.cs_
 ```
-	public int TeacherId { get; set; }
-	public int TeacherName { get; set; }
-	public int TeacherAddress { get; set; }
-	public int TeacherAge { get; set; }
+        public int TeacherId { get; set; }
+        public string TeacherName { get; set; }
+        public string TeacherAddress { get; set; }
+        public int TeacherAge { get; set; }
 ```
+_Teacher.cs File_
+![image](https://user-images.githubusercontent.com/111234771/199998410-070804c8-b104-4a2d-a987-208db9ef883f.png)
+
 _in Subject.cs_	
 ```
-	public int SubjectId { get; set; }
-	public int SubjectName { get; set; }
-	public int SubjectTerm { get; set; }
-	public int SubjectCredets { get; set; }
+        public int SubjectId { get; set; }
+        public string? SubjectName { get; set; }
+        public string SubjectTerm { get; set; }
+        public int SubjectCredets { get; set; }
 ```
 _Subject.cs File_
-![image](https://user-images.githubusercontent.com/111234771/199986465-c56f689b-eee5-4b84-9f55-f487144ad263.png)
+![image](https://user-images.githubusercontent.com/111234771/199998101-37479b95-12fe-403c-819d-050237862b1c.png)
 
 
 ### Step 4 - Designing a Context
