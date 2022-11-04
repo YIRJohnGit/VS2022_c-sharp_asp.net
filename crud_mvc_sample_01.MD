@@ -35,6 +35,7 @@ Go to Solution Explorer and right Click on the < Project > Folder
 	Select < Add >, in Sub Menu < Class > Teacher.cs
 ```
 ***...for Creating 2 Models  Teache.cs and Subject.cs***
+
 _in Teacher.cs_
 ```
 	public int TeacherId { get; set; }
@@ -42,7 +43,7 @@ _in Teacher.cs_
 	public int TeacherAddress { get; set; }
 	public int TeacherAge { get; set; }
 ```
-_in subject.cs_	
+_in Subject.cs_	
 ```
 	public int SubjectId { get; set; }
 	public int SubjectName { get; set; }
