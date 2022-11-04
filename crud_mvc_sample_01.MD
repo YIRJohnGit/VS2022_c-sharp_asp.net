@@ -101,10 +101,9 @@ _Go to Program.cs in the root directory and register_
 ![image](https://user-images.githubusercontent.com/111234771/199997206-807f8ac0-2573-4ae2-89fa-39c96dda36dd.png)
 
 
-*** ...for Migration 
+***...for Migration Creating a table
 ```
 add-migration Independent 
-
 ```
 
 ***... Adding Entity Subject Can Have Many Teachers***
@@ -112,3 +111,10 @@ add-migration Independent
 
 ***... Adding Entity Teacher Can Have Many Subject*** 
 ![image](https://user-images.githubusercontent.com/111234771/199999739-9eaadc78-1d04-4ab8-aabd-4f39c5f9d6c9.png)
+
+
+***...for Migration Creating a table Many to Many
+```
+add-migration ManyToMany
+update-database
+```
