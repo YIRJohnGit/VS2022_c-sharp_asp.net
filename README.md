@@ -32,6 +32,8 @@ Go to Add Connection
 	Enter Database Name < SimplilearEFDB>
 	Click on < Ok > Button
 	Confirm the Create / Overwrite
+```
+```
 Go to Server Explorer to Verify, Create and Insert Data, 
 	Select The Table and Create SQL Query
 		Create table Departments
@@ -86,12 +88,16 @@ Go to Solution Explorer, Right Click and Select Add New Item
 			Search and Select < EntityDataSource >
 			Go to < Build > Menu and Select < Build >
 			Go to < Design > Pattern Tab
+```
+```			
 				Right Click on the < Entity Data Source > 
 					Select < Show Smart Tag >
 						Configure Data Source 
 							Named Connection < StudentDBContext >
 							Default Container Name < StudentDBContext >, Click on Next
 							Select EntitySetName < Departments >, Click on Finish Button
+```
+```
 				Right Click on the < Grid View Tasks >
 					Select < Auto Format ..... >, to Change the Format of the Table
 					Select < Choose Data Source > < EntityDataSource1 >
@@ -102,6 +108,8 @@ Go to Solution Explorer, Right Click and Select Add New Item
 						Add Grid View from Toolbox, (Drag and Drop Inside Template)
 							Click on Edit < DataBinding ... >
 								Go to DataSource, Select Custom Binding, Code Expression  < Eval("Students")>, Click on Okay
+```
+```
 				Right Click on the < Grid View >
 					Click on the < End Template Editing >
 				Right Click on the < Entity DataSource >, Go to Properties
