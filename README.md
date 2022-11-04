@@ -1,6 +1,7 @@
 # ASP.NET Entity Framwork with VS2022
 
 ### Step 1 - Create a New Project (Web App / Empty) ###
+```
 	Select < ASP.NET Core WebApp >
 		Click On Next
 		Specify the Project detail and framework
@@ -11,17 +12,20 @@
 			Click on Create
 				Select < Empty > New ASP.NET Web Application
 				Create The Project 
-
+```
 
 ### Step 2 - Addin Entityframe work to the project ###
+```
 Go to Solution Explorer
 	Right Click an Select < Manage NuGet Packages >
 		Go to Browse, Search and Select < Entityframework > with 5.0.0 Version
 		Click on Install
 		Click on Agreeemnt Terms
 
+```
 
 ### Step 3 - Connecting to a Database ###
+```
 Go to Add Connection 
 	Data Source < Microsoft SQL Server ( SqlClient) >
 	Server Name < (LocalDB)\MSSQLLocalDB >
@@ -56,10 +60,11 @@ Go to Server Explorer to Verify, Create and Insert Data,
 		Insert into Student values ('Karl','Dennings', Male, 250000, 1)
 		Insert into Student values ('Drew','Cosby', Male, 300000, 2)
 		Insert into Student values ('Halen','Keller', Female, 300000, 2)
-
+```
 
 ### Step 4 - Create New Entity Data Item (ADO.NET Entity Data Model) ###
-	Go to Solution Explorer, Right Click and Select Add New Item
+```
+Go to Solution Explorer, Right Click and Select Add New Item
 		Go to < Data > Tree, Select < ADO.NET Entity Dta Modal >
 		Name < StudentModel >, Click on Add
 		Select the Model COntaines < EF Designer From Database >, Click on Next
@@ -68,8 +73,10 @@ Go to Server Explorer to Verify, Create and Insert Data,
 		Select The Entity Version, Click on Next
 		Select the tables (Departments, Student), 
 		Model Namespace < StudentModel > Click on Finish
+```
 
 ### Step 5 - Create A web Form ###
+```
 	Go to Solution Explorer, Right Click and Select Add New Item
 		Go to < Web > Tree, Select < Web Form >
 		Click on Default Name and Finish
@@ -99,6 +106,6 @@ Go to Server Explorer to Verify, Create and Insert Data,
 					Click on the < End Template Editing >
 				Right Click on the < Entity DataSource >, Go to Properties
 					Include < Students >
-
-Run the App
+```
+### Run the App ###
 	IIS Express
