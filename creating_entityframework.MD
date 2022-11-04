@@ -86,12 +86,23 @@ _Result_
 
 ```
 Select the Model COntaines < EF Designer From Database >, Click on Next
-		Select Created Databases or Create a New Connection....
-		Save Connection Settings < StudentDBContext > (SimplilearnEFDBEntities). Click on Next
-		Select The Entity Version, Click on Next
-		Select the tables (Departments, Student), 
-		Model Namespace < StudentModel > Click on Finish
 ```
+![image](https://user-images.githubusercontent.com/111234771/199959051-ef6630ca-bb5f-497f-9a26-a1386fbd7af7.png)
+
+```
+Select Created Databases or Create a New Connection....
+Save Connection Settings < StudentDBContext > (SimplilearnEFDBEntities). Click on Next
+Select The Entity Version, Click on Next
+```
+_Result_
+![image](https://user-images.githubusercontent.com/111234771/199959262-11976e00-9d99-4152-93b4-b20407bd8181.png)
+
+```
+Select the tables (Departments, Student), 
+Model Namespace < StudentModel > Click on Finish
+```
+_Result_
+![image](https://user-images.githubusercontent.com/111234771/199959402-a865fa43-4f79-4bf3-a1a0-516c502de714.png)
 
 ### Step 5 - Create A web Form ###
 ```
