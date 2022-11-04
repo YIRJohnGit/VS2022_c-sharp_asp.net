@@ -105,11 +105,10 @@ _Go to Program.cs in the root directory and register_
 ```
 add-migration Independent 
 
-*** ... Adding Entity Subject Can Have Many Teachers 
+```
+
+***... Adding Entity Subject Can Have Many Teachers***
 ![image](https://user-images.githubusercontent.com/111234771/199999488-0632b5c2-42e3-4514-9de9-c240b8b43dd1.png)
 
-*** ... Adding Entity Teacher Can Have Many Subject 
+***... Adding Entity Teacher Can Have Many Subject*** 
 ![image](https://user-images.githubusercontent.com/111234771/199999739-9eaadc78-1d04-4ab8-aabd-4f39c5f9d6c9.png)
-
-
-```
