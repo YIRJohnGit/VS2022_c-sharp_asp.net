@@ -11,7 +11,7 @@ Microsoft and .Net
 [https://www.nuget.org/api/v2/](https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/)
 ```
 
-*** No Know More Read nuget.org ***
+***To Know More Read nuget.org***
 
 ***Result***
 ![image](https://user-images.githubusercontent.com/111234771/199948055-1b638550-b86d-4d4c-b429-392d94eba713.png)
