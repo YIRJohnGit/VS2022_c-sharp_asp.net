@@ -50,3 +50,5 @@ _in Subject.cs_
 	public int SubjectTerm { get; set; }
 	public int SubjectCredets { get; set; }
 ```
+_Subject.cs File_
+![image](https://user-images.githubusercontent.com/111234771/199986465-c56f689b-eee5-4b84-9f55-f487144ad263.png)
