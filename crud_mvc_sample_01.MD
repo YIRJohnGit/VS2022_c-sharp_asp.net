@@ -101,11 +101,7 @@ _Go to Program.cs in the root directory and register_
 ![image](https://user-images.githubusercontent.com/111234771/199997206-807f8ac0-2573-4ae2-89fa-39c96dda36dd.png)
 
 
-_Result Sample View_
-![image](https://user-images.githubusercontent.com/111234771/200054185-ba9d00b4-b1c3-4934-a638-8b1947beae4f.png)
-
-
-***...for Migration Creating a table
+***...for Migration Creating a table***
 ```
 add-migration Independent 
 ```
