@@ -92,3 +92,7 @@ _Result_
 ### Step 5 - Register Context in the Dependency Injuction COntainer
 _Go to Program.cs in the root directory_
 
+_Add the Connecting String_
+![image](https://user-images.githubusercontent.com/111234771/199996497-5f502252-ff98-4d99-8f34-460f098dcd2d.png)
+
+
