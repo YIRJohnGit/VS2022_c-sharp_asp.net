@@ -54,7 +54,7 @@ _Subject.cs File_
 ![image](https://user-images.githubusercontent.com/111234771/199986465-c56f689b-eee5-4b84-9f55-f487144ad263.png)
 
 
-### Step 4 - Creating Context
+### Step 4 - Designing a Context
 _Context can be used as Special Class and maintain Session Between Database and Applications_
 ```
 Go to Sollution Folder and Right Click on Add Folder from the Dropdown Menu
