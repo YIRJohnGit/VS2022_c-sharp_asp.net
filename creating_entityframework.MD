@@ -119,31 +119,34 @@ _Finally - Entity Data Modal_
 			Go to < Build > Menu and Select < Build >
 			Go to < Design > Pattern Tab
 ```
+_Design Patter Tab_
+![image](https://user-images.githubusercontent.com/111234771/199961651-9a32090d-f74d-486f-8197-f7bc59411e71.png)
+
 ```			
-				Right Click on the < Entity Data Source > 
-					Select < Show Smart Tag >
-						Configure Data Source 
-							Named Connection < StudentDBContext >
-							Default Container Name < StudentDBContext >, Click on Next
-							Select EntitySetName < Departments >, Click on Finish Button
+	Right Click on the < Entity Data Source > 
+		Select < Show Smart Tag >
+			Configure Data Source 
+				Named Connection < StudentDBContext >
+				Default Container Name < StudentDBContext >, Click on Next
+				Select EntitySetName < Departments >, Click on Finish Button
 ```
 ```
-				Right Click on the < Grid View Tasks >
-					Select < Auto Format ..... >, to Change the Format of the Table
-					Select < Choose Data Source > < EntityDataSource1 >
-					Select < Edit Columns.... >
-						 Select TemplateField, Click on Add
-						 	HeaderText : Students, Click on < Ok >
-					Select < Edit Template... >
-						Add Grid View from Toolbox, (Drag and Drop Inside Template)
-							Click on Edit < DataBinding ... >
-								Go to DataSource, Select Custom Binding, Code Expression  < Eval("Students")>, Click on Okay
+	Right Click on the < Grid View Tasks >
+		Select < Auto Format ..... >, to Change the Format of the Table
+		Select < Choose Data Source > < EntityDataSource1 >
+		Select < Edit Columns.... >
+			 Select TemplateField, Click on Add
+				HeaderText : Students, Click on < Ok >
+		Select < Edit Template... >
+			Add Grid View from Toolbox, (Drag and Drop Inside Template)
+				Click on Edit < DataBinding ... >
+					Go to DataSource, Select Custom Binding, Code Expression  < Eval("Students")>, Click on Okay
 ```
 ```
-				Right Click on the < Grid View >
-					Click on the < End Template Editing >
-				Right Click on the < Entity DataSource >, Go to Properties
-					Include < Students >
+	Right Click on the < Grid View >
+		Click on the < End Template Editing >
+	Right Click on the < Entity DataSource >, Go to Properties
+		Include < Students >
 ```
 ### Run the App ###
 	IIS Express
