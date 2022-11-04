@@ -58,9 +58,9 @@ Go to Server Explorer to Verify, Create and Insert Data,
 			DepartmentId int foreign key references Departments(Id)
 		)
 
-		Insert into Department values ('Engineering','Block B')
-		Insert into Department values ('Law','Block C')
-		Insert into Department values ('Commerce','Block A')
+		Insert into Departments values ('Engineering','Block B')
+		Insert into Departments values ('Law','Block C')
+		Insert into Departments values ('Commerce','Block A')
 
 		Insert into Student values ('Elan','Cross', 'Male', 250000, 1)
 		Insert into Student values ('Rick','Rollins', 'Male', 120000, 3)
