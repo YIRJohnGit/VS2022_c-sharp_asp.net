@@ -1,1 +1,104 @@
-# asp.net_entityframworkwithVS2022
+# ASP.NET Entity Framwork with VS2022
+
+### Step 1 - Create a New Project (Web App / Empty) ###
+	Select < ASP.NET Core WebApp >
+		Click On Next
+		Specify the Project detail and framework
+			Project Name < SimplilearnEF >
+			Location < J:\VS2022 >
+			Solution Name < SimplilearnEF >
+			Framework < .NETFramework 4.7.2 >
+			Click on Create
+				Select < Empty > New ASP.NET Web Application
+				Create The Project 
+
+
+### Step 2 - Addin Entityframe work to the project ###
+Go to Solution Explorer
+	Right Click an Select < Manage NuGet Packages >
+		Go to Browse, Search and Select < Entityframework > with 5.0.0 Version
+		Click on Install
+		Click on Agreeemnt Terms
+
+
+### Step 3 - Connecting to a Database ###
+Go to Add Connection 
+	Data Source < Microsoft SQL Server ( SqlClient) >
+	Server Name < (LocalDB)\MSSQLLocalDB >
+	Enter Database Name < SimplilearEFDB>
+	Click on < Ok > Button
+	Confirm the Create / Overwrite
+Go to Server Explorer to Verify, Create and Insert Data, 
+	Select The Table and Create SQL Query
+		Create table Departments
+		(
+			ID int primary key identity,
+			Name nvarchar(50),
+			Location nvarchar(50),
+		)
+
+		Create table Student
+		(
+			ID int primary key identity,
+			FirstName nvarchar(50),
+			LastName nvarchar(50),
+			Gender nvarchar(50),
+			Fees int,
+			DepartmentId int foreign key references Departments(Id)
+		)
+
+		Insert into Department values ('Engineering','Block B')
+		Insert into Department values ('Law','Block C')
+		Insert into Department values ('Commerce','Block A')
+
+		Insert into Student values ('Elan','Cross', Male, 250000, 1)
+		Insert into Student values ('Rick','Rollins', Male, 120000, 3)
+		Insert into Student values ('Karl','Dennings', Male, 250000, 1)
+		Insert into Student values ('Drew','Cosby', Male, 300000, 2)
+		Insert into Student values ('Halen','Keller', Female, 300000, 2)
+
+
+### Step 4 - Create New Entity Data Item (ADO.NET Entity Data Model) ###
+	Go to Solution Explorer, Right Click and Select Add New Item
+		Go to < Data > Tree, Select < ADO.NET Entity Dta Modal >
+		Name < StudentModel >, Click on Add
+		Select the Model COntaines < EF Designer From Database >, Click on Next
+		Select Created Databases or Create a New Connection....
+		Save Connection Settings < StudentDBContext > (SimplilearnEFDBEntities). Click on Next
+		Select The Entity Version, Click on Next
+		Select the tables (Departments, Student), 
+		Model Namespace < StudentModel > Click on Finish
+
+### Step 5 - Create A web Form ###
+	Go to Solution Explorer, Right Click and Select Add New Item
+		Go to < Web > Tree, Select < Web Form >
+		Click on Default Name and Finish
+		Go to Inside HTML Div Tag
+		(Open the a Tool Box from View Menu)
+			Search and Select < GridView >
+			Search and Select < EntityDataSource >
+			Go to < Build > Menu and Select < Build >
+			Go to < Design > Pattern Tab
+				Right Click on the < Entity Data Source > 
+					Select < Show Smart Tag >
+						Configure Data Source 
+							Named Connection < StudentDBContext >
+							Default Container Name < StudentDBContext >, Click on Next
+							Select EntitySetName < Departments >, Click on Finish Button
+				Right Click on the < Grid View Tasks >
+					Select < Auto Format ..... >, to Change the Format of the Table
+					Select < Choose Data Source > < EntityDataSource1 >
+					Select < Edit Columns.... >
+						 Select TemplateField, Click on Add
+						 	HeaderText : Students, Click on < Ok >
+					Select < Edit Template... >
+						Add Grid View from Toolbox, (Drag and Drop Inside Template)
+							Click on Edit < DataBinding ... >
+								Go to DataSource, Select Custom Binding, Code Expression  < Eval("Students")>, Click on Okay
+				Right Click on the < Grid View >
+					Click on the < End Template Editing >
+				Right Click on the < Entity DataSource >, Go to Properties
+					Include < Students >
+
+Run the App
+	IIS Express
