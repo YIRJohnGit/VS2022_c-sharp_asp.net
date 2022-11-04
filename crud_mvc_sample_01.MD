@@ -133,6 +133,17 @@ update-database
 ```
 
 ### Step 6 - CRUD Operations
+***...For adding connecting String***
+
+_Result Sample View_
+![image](https://user-images.githubusercontent.com/111234771/200054108-acf58dde-6373-4723-9b7a-29cf3770f832.png)
+
+***...For Binding the Connecting String with Service***
+
+_Result Sample View_
+![image](https://user-images.githubusercontent.com/111234771/200054185-ba9d00b4-b1c3-4934-a638-8b1947beae4f.png)
+
+
 
 # Need to re learn 
 https://youtu.be/Ep0sFH-2nMQ
