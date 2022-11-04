@@ -32,10 +32,12 @@ _Result_
 Go to Add Connection 
 	Data Source < Microsoft SQL Server ( SqlClient) >
 	Server Name < (LocalDB)\MSSQLLocalDB >
-	Enter Database Name < SimplilearEFDB>
+	Enter Database Name < SimplilearEFDB >
 	Click on < Ok > Button
 	Confirm the Create / Overwrite
 ```
+![image](https://user-images.githubusercontent.com/111234771/199949304-7e1e0482-5857-40be-901b-3f00000d4c8e.png)
+
 ```
 Go to Server Explorer to Verify, Create and Insert Data, 
 	Select The Table and Create SQL Query
