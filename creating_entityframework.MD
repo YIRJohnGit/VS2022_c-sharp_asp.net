@@ -78,9 +78,14 @@ _Result_
 ### Step 4 - Create New Entity Data Item (ADO.NET Entity Data Model) ###
 ```
 Go to Solution Explorer, Right Click and Select Add New Item
-		Go to < Data > Tree, Select < ADO.NET Entity Dta Modal >
-		Name < StudentModel >, Click on Add
-		Select the Model COntaines < EF Designer From Database >, Click on Next
+	Go to < Data > Tree, Select < ADO.NET Entity Dta Modal >
+	Name < StudentModel >, Click on Add
+```
+_Result_
+![image](https://user-images.githubusercontent.com/111234771/199958792-e970ec5c-5aa7-4165-9edb-1607f2c60695.png)
+
+```
+Select the Model COntaines < EF Designer From Database >, Click on Next
 		Select Created Databases or Create a New Connection....
 		Save Connection Settings < StudentDBContext > (SimplilearnEFDBEntities). Click on Next
 		Select The Entity Version, Click on Next
