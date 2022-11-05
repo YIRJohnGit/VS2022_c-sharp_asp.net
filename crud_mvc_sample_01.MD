@@ -108,12 +108,16 @@ add-migration Independent
 _Post Migration Result_
 ![image](https://user-images.githubusercontent.com/111234771/200056134-591891d2-0a73-4887-80aa-71ee98c2ec51.png)
 
-
-
 ***... Adding Entity Subject Can Have Many Teachers***
+```
+public List<Teacher> SubjectTeachers { get; set; } = new List<Teacher>();
+```
 ![image](https://user-images.githubusercontent.com/111234771/199999488-0632b5c2-42e3-4514-9de9-c240b8b43dd1.png)
 
 ***... Adding Entity Teacher Can Have Many Subject*** 
+```
+public List<Subject> TeacherSubjects { get; set; } = new List<Subject>();
+```
 ![image](https://user-images.githubusercontent.com/111234771/199999739-9eaadc78-1d04-4ab8-aabd-4f39c5f9d6c9.png)
 
 
