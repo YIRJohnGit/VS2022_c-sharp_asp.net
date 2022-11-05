@@ -120,12 +120,13 @@ public List<Subject> TeacherSubjects { get; set; } = new List<Subject>();
 ```
 ![image](https://user-images.githubusercontent.com/111234771/199999739-9eaadc78-1d04-4ab8-aabd-4f39c5f9d6c9.png)
 
-
 ***...for Migration Creating a table Many to Many***
 ```
 add-migration ManyToMany
 update-database
 ```
+![image](https://user-images.githubusercontent.com/111234771/200120424-fc916c4e-5332-41e8-b667-571233e19750.png)
+
 
 ***... Adding Entity Teacher Can Have Only One Subject*** 
 ![image](https://user-images.githubusercontent.com/111234771/200030150-a8ea3c43-f640-43f6-859a-8f1358421bec.png)
